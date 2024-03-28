@@ -1,0 +1,134 @@
+// 1
+function swapping(){
+    var mynum = 42
+    var name = kai
+    var temp;
+    temp = name
+    name = mynum
+    mynum = temp
+}
+
+// 2
+function prinT(){
+    for(i=-52; i > 1066; i++){
+        console.log(i)
+    }
+}
+
+// 3
+function beCheerful(){
+    for(i=0; i > 98; i++){
+        console.log("good morning!")
+    }
+}
+
+// 4
+function multiples(){
+    for(i=-300; i >0; i++){
+        if (i = -3 || -6){
+            i=i
+        }
+        else if(i % 3==0){
+            console.log(i)
+        }
+    }
+}
+
+// 5
+function womp(){
+    x = 2000
+    while(x < 5280){
+        console.log(x)
+        x++
+    }
+}
+
+// 6
+function bday(x,y){
+    if (x == 3 && y == 15){
+        console.log("How did you know?")
+    }
+    else if (x == 15 && y == 3){
+        console.log("How did you know?")
+    }
+    else {
+        console.log("Just another day...")
+    }
+}
+
+console.log(bday(3,15))
+
+// 7
+function leapYear(){
+    if(x % 4 == 0 && x % 100 != 0){
+        console.log("Leap Year!")
+    }
+    else if(x % 400 == 0) {
+        console.log("Leap Year!")
+    }
+    else {
+        console.log("Not a Leap Year!")
+    }
+}
+
+console.log(leapYear())
+
+// 8
+function multiplesSix(){
+    var x = 0
+    while(x<60000){
+        x += 6
+        console.log(x)
+    }
+}
+
+console.log (multiplesSix())
+
+// 9
+function codingDojo(){
+    for (i = 1; i < 100; i++){
+        if (x % 5 == 0){
+            console.log("Coding")
+            if (i % 10 == 0){
+                console.log("Dojo!")
+            }
+        }
+    }
+}
+
+// 10
+function know(incoming){
+    console.log(incoming)
+}
+
+// 11
+function huge(){
+    var x = -300000
+    while(x < 300000){
+        if(x % 2 != 0){
+            sum += x
+        }
+    }
+    console.log(sum)
+}
+
+// 12
+function countdown(){
+    x = 2016
+    while(x > 0){
+        console.log(x)
+        x - 4
+    }
+}
+
+// 13
+function finalCountdown(a,b,c,d){
+    while(b < c){
+        if(b % a == 0 && b != d){
+            console.log(b)
+        }
+    b++;
+    }
+}
+
+console.log(finalCountdown(3,5,17,9));
