@@ -34,13 +34,28 @@ console.log(drawLeftStars(6))
 function drawRightStars(num){
     let rStar = ''
     for(i = 0; i <= 75; i++){
-        rStar +='' 
+        rStar +=' ' 
     }
-    let sPoint = 75 - num
-    for(index = sPoint; index <= 75; index++){
-        rStar[index] = '*'
+    for(i = 0; i <= num; i++){
+        rStar +='*' 
     }
     return rStar
 }
 
 console.log(drawRightStars(50))
+
+function drawCenteredStars(num, char){
+    let cStar = ''
+    for(i = 0; i <= 33; i++){
+        cStar +=' ' 
+    }
+    for(i = 0; i <= num; i++){
+        cStar += char
+    }
+    for(i = 0; i <= 32; i++){
+        cStar +=' ' 
+    }
+    return cStar
+}
+
+console.log(drawCenteredStars(6, 'w'))
